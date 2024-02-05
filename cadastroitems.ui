@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CadastroVeiculos</class>
+ <widget class="QDialog" name="CadastroVeiculos">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLineEdit" name="lineEdit_precoItem">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>160</y>
+      <width>301</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Preço por unidade</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_criarVeiculo">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>410</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Criar</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_nomeItem">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>100</y>
+      <width>301</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Nome do item</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_quantidadeItem">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>220</y>
+      <width>301</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Quantidade</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_descricaoItem">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>280</y>
+      <width>401</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Descrição do item</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuMenu">
+    <property name="title">
+     <string>Menu</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuSair">
+    <property name="title">
+     <string>Sair</string>
+    </property>
+   </widget>
+   <addaction name="menuMenu"/>
+   <addaction name="menuSair"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

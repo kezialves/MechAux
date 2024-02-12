@@ -1,21 +1,20 @@
-#ifndef CADASTROVEICULOS_H
-#define CADASTROVEICULOS_H
+#ifndef CADASTROITENS_H
+#define CADASTROITENS_H
 
 #include <QDialog>
 #include <QtSql>
 #include <QtDebug>
+#include <QMessageBox>
 
 namespace Ui {
-class CadastroVeiculos;
+class cadastroItens;
 }
 
-class CadastroVeiculos : public QDialog
+class cadastroItens : public QDialog
 {
     Q_OBJECT
 
 public:
-
-
     QSqlDatabase db;
 
     void closeDatabase(){
@@ -25,7 +24,7 @@ public:
     bool openDatabase(){
 
         QSqlDatabase db = QSqlDatabase::addDatabase("QSQLITE");
-        db.setDatabaseName("../database/veiculos.db");
+        db.setDatabaseName("../database/itens.db");
 
         if(!db.open()){
             qDebug()<<("Failed to open database");
@@ -37,15 +36,14 @@ public:
         }
 
     }
-
-    explicit CadastroVeiculos(QWidget *parent = nullptr);
-    ~CadastroVeiculos();
+    explicit cadastroItens(QWidget *parent = nullptr);
+    ~cadastroItens();
 
 private slots:
-    void on_CriarVeiculos_Pushed();
+    void on_pushButton_criarItem_clicked();
 
 private:
-    Ui::CadastroVeiculos *ui;
+    Ui::cadastroItens *ui;
 };
 
-#endif // CADASTROVEICULOS_H
+#endif // CADASTROITENS_H

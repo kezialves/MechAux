@@ -1,4 +1,4 @@
-QT       += core gui
+QT       += core gui sql
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -9,7 +9,7 @@ CONFIG += c++17
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-    cadastroitems.cpp \
+    cadastroitens.cpp \
     cadastroveiculos.cpp \
     estoque.cpp \
     estoquewindow.cpp \
@@ -22,7 +22,7 @@ SOURCES += \
     veiculo.cpp
 
 HEADERS += \
-    cadastroitems.h \
+    cadastroitens.h \
     cadastroveiculos.h \
     estoque.h \
     estoquewindow.h \
@@ -34,7 +34,7 @@ HEADERS += \
     veiculo.h
 
 FORMS += \
-    cadastroitems.ui \
+    cadastroitens.ui \
     cadastroveiculos.ui \
     estoquewindow.ui \
     mainwindow.ui

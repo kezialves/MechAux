@@ -2,7 +2,6 @@
 #define ESTOQUEWINDOW_H
 
 #include <QDialog>
-#include "estoque.h"
 #include "cadastroitens.h"
 #include "cadastroveiculos.h"
 
@@ -59,6 +58,7 @@ public:
         veiculosDb.close();
     }
 
+    
     void updateListView_Veiculos();
     explicit estoqueWindow(QWidget *parent = nullptr);
     ~estoqueWindow();

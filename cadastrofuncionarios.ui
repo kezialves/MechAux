@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>cadastroFuncionarios</class>
+ <widget class="QDialog" name="cadastroFuncionarios">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>954</width>
+    <height>609</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Tela de Cadastro de Funcionarios</string>
+  </property>
+  <widget class="QWidget" name="centralwidget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>941</width>
+     <height>600</height>
+    </rect>
+   </property>
+   <widget class="QLineEdit" name="lineEdit_endereco">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>170</y>
+      <width>301</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_criarItem">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>520</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Criar</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_cpf">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>90</y>
+      <width>301</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_telefone">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>250</y>
+      <width>301</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_nome">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>70</y>
+      <width>121</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>CPF</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_preco">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>150</y>
+      <width>141</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Endereço</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_quantidade">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>230</y>
+      <width>121</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Telefone</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_email">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>310</y>
+      <width>67</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>E-mail</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_senha">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>390</y>
+      <width>67</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Senha</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_conta_bancaria">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>70</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Conta Bancária</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_grau_instrucao">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>150</y>
+      <width>131</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Grau de Instrução</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_experiencia">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>230</y>
+      <width>141</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Experiência na área</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_historico">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>310</y>
+      <width>151</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Histórico de trabalho</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_email">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>330</y>
+      <width>301</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_senha">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>410</y>
+      <width>301</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_conta">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>90</y>
+      <width>301</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_grau_instrucao">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>170</y>
+      <width>301</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_experiencia">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>250</y>
+      <width>301</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_historico">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>330</y>
+      <width>301</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuMenu">
+    <property name="title">
+     <string>Menu</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuSair">
+    <property name="title">
+     <string>Sair</string>
+    </property>
+   </widget>
+   <addaction name="menuMenu"/>
+   <addaction name="menuSair"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>3</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

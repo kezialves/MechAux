@@ -39,6 +39,3 @@ void CadastroVeiculos::on_CriarVeiculos_Pushed()
     else
         QMessageBox::critical(this, tr("error: "), query.lastError().text());
 }
-
-
-

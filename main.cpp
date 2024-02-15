@@ -1,5 +1,5 @@
 //#include "cadastroveiculos.h"
-#include "estoquewindow.h""
+#include "menuadminwindow.h"
 //#include "mainwindow.h"
 
 
@@ -11,8 +11,8 @@ int main(int argc, char *argv[])
     //MainWindow w;
     //w.show();
 
-    estoqueWindow ew;
-    ew.show();
+    menuAdminWindow adminWindow;
+    adminWindow.show();
 
 
 
